@@ -1,0 +1,77 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <link rel="preconnect" href="https://fonts.googleapis.com" />
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+    <link
+      href="https://fonts.googleapis.com/css2?family=Poppins:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&display=swap"
+      rel="stylesheet"
+    />
+    <link
+      rel="stylesheet"
+      href="./assets/fontawesome-free-6.0.0-web/css/all.min.css"
+    />
+    <link rel="stylesheet" href="./css/style.css" />
+    <title>Login Page 0</title>
+  </head>
+  <body>
+    <main class="container">
+      <h2>Login</h2>
+      <form>
+        <section class="input-field">
+          <input
+            type="text"
+            name="email"
+            id="email"
+            placeholder="Enter Your E-mail"
+          />
+          <span class="underline"></span>
+        </section>
+        <section class="input-field">
+          <input
+            type="password"
+            name="password"
+            id="password"
+            placeholder="Enter Your Password"
+            class="password"
+          />
+
+          <i
+            class="fas fa-eye-slash"
+            id="togglePassword"
+            class="togglePassword"
+          ></i>
+          <span class="underline"></span>
+        </section>
+        <input type="submit" value="Continue" />
+      </form>
+      <footer class="footer">
+        <span>Or Connect With Social Media</span>
+        <div class="social-fields">
+          <div class="social-field twitter">
+            <a href="">
+              <i class="fab fa-twitter"></i>
+              Sign in with Twitter
+            </a>
+          </div>
+          <div class="social-field facebook">
+            <a href="">
+              <i class="fab fa-facebook-f"></i>
+              Sign in with Facebook
+            </a>
+          </div>
+          <br />
+          <div class="other-links">
+            <span><a href="./forgot/">Forgot Password?</a></span>
+            <span><a href="./createaccount/">Create Account</a></span>
+          </div>
+        </div>
+      </footer>
+    </main>
+    <script src="./js/togglePassword.js"></script>
+    <script src="./js/preventFormSubmit.js"></script>
+  </body>
+</html>

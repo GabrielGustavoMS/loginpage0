@@ -1,0 +1,9 @@
+form .input-field,
+form .input-field:first-child {
+  margin-top: 10%;
+  margin-bottom: 0.5rem;
+}
+
+.other-links {
+  margin-top: 10%;
+}
