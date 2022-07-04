@@ -18,3 +18,4 @@ function togglePassword(togglePasswordBtn) {
   togglePasswordBtn.classList.toggle('fa-eye')
   togglePasswordBtn.classList.toggle('fa-eye-slash')
 }
+//End
